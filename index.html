@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta Data -->
+  <meta charset="utf-8" />
+
+    <!-- Meta data for SEO purposes. -->
+    <title> FashionFood 3 </title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- meta data to tell the browser that your device is responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/demo.css" />
+  <link rel="stylesheet" href="ajax/libs/gridlex/2.7.1/gridlex.min.css" />
+  <link rel="stylesheet" href="index.css" />
+
+</head>
+<button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+<body id="topofpage">
+  <section class="banner grid-center fixed">
+    <div class="col-6_sm-12 centered"> 
+      <h2 class="big-bold"> FashionFood </h2>
+      <h3 class="not-bold"> Mode - Accessoires - Kulinarik </h3>
+    </div>
+  </section>
+
+
+
+
+  <section class="banner2 grid-center fixed">
+
+    <div>
+
+      <div class="box no1">
+        <div class="box no4">
+          <img class="icons" src="images/stift.png" width="96" height="96" alt="">
+        </div>
+        <div class="box no5">
+          <a href="https://www.lavinoteca.de" target="_blank"><img src="images/la_vinoteca.jpeg" alt="" class="vinoteca"></a>
+        </div>
+      </div>
+
+      <div class="box no2">
+        <div class="box no4">
+          <img class="icons" src="images/kalender.png" width="96" height="96" alt="">
+        </div>
+        <p class="box-description">Donnerstag <br> 24.09.2020</p>
+      </div>
+
+      <div class="box no3">
+        <div class="box no4">
+          <img class="icons" src="images/money.png" width="96" height="96" alt="">
+        </div>
+        <p class="box-description"><br>Ticket à<br>25,-€</p>
+      </div>
+
+    </div>
+
+    <div class="col-6_sm-12-middle centered">
+    </div>
+
+  </section>
+
+
+
+  <section class="banner2 grid-center fixed">
+    <div class="col-6_sm-12-middle centered">
+    </div>
+  </section>
+  
+  <script>
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <script src="/assets/main.js"></script>
+</body>
+</html>
